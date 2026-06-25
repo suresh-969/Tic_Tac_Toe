@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="hbox">
+                <button type="button" class="resetGame">Reset</button>
+            </div>
+            <div class="turn hbox">X TURN</div>
+            <div class="reset hbox">
+                <div class="retry">
+                    <img src="./images/retry.png" alt="reset" class="restart" width="60px"/>
+                 </div>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div id="box1" class="box"></div>
+            <div id="box2" class="box"></div>
+            <div id="box3" class="box"></div>
+            <div id="box4" class="box"></div>
+            <div id="box5" class="box"></div>
+            <div id="box6" class="box"></div>
+            <div id="box7" class="box"></div>
+            <div id="box8" class="box"></div>
+            <div id="box9" class="box"></div>
+        </div>
+        <div class="results">
+            <div class="player1 rbox">
+                <p class="name">Player1(X)</p>
+                <p class="wins1">0</p>
+            </div>
+            <div class="draws rbox">
+                <p class="name">Ties</p>
+                <p class="ties">0</p>
+            </div>
+            <div class="player2 rbox">
+                <p class="name">Player2(O)</p>
+                <p class="wins2">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
